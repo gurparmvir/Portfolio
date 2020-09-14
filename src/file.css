@@ -1,0 +1,145 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  overflow: hidden;
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  border: 3px solid grey;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: white;
+}
+body {
+  background-image: url(img.jpg);
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: navy;
+}
+
+h1 {
+  font-size: 90px;
+  text-align: center;
+  padding-top: 150px;
+  color: navy;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+h2 {
+  color: navy;
+  text-align: center;
+  font-size: 50px;
+}
+
+img {
+  margin-top: 100px;
+  border-radius: 8px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+.db {
+  display: block;
+}
+
+.dib {
+  display: inline-block;
+}
+
+.h2 {
+  height: 2rem;
+}
+
+.link {
+  text-decoration: none;
+  transition: color 0.15s ease-in;
+}
+
+.link:link,
+.link:visited {
+  transition: color 0.15s ease-in;
+  color: antiquewhite;
+}
+
+.link:hover {
+  transition: color 0.15s ease-in;
+}
+
+.link:active {
+  transition: color 0.15s ease-in;
+}
+
+.link:focus {
+  transition: color 0.15s ease-in;
+  outline: 1px dotted currentColor;
+}
+
+.w2 {
+  width: 2rem;
+}
+
+.near-black {
+  color: black;
+}
+
+.mh3 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tc {
+  text-align: center;
+}
+
+Nav.Link {
+  display: inline;
+}
+.inline {
+  display: inline;
+}
+Nav.Item {
+  display: inline;
+}
+
+.pic-1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+  padding-top: 80px;
+}
+.lh-copy {
+  border: lawngreen;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+}
