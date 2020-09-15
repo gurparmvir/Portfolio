@@ -85,3 +85,11 @@
 a {
   line-height: 30px;
 }
+.project {
+  padding-top: 80px;
+  padding-bottom: 1px;
+  font-size: 50px;
+  color: black;
+  font-weight: normal;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

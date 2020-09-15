@@ -11,16 +11,15 @@ ul {
 }
 
 li {
-  float: left;
+  display: inline-block;
+  text-align: center;
 }
 
 a {
-  display: block;
-  padding: 10px;
-  text-align: center;
   color: white;
   padding: 14px 20px;
   text-decoration: none;
+  position: static;
 }
 
 li a:hover:not(.active) {
@@ -31,12 +30,10 @@ li a:hover:not(.active) {
   background-color: white;
 }
 body {
-  background-image: url(img.jpg);
-  height: auto;
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-color: navy;
+  height: auto; /* Used to enable scrolling */
+  background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
 }
 
 h1 {
@@ -68,6 +65,7 @@ img {
 
 .dib {
   display: inline-block;
+  color: gold;
 }
 
 .h2 {
@@ -82,7 +80,7 @@ img {
 .link:link,
 .link:visited {
   transition: color 0.15s ease-in;
-  color: antiquewhite;
+  color: white;
 }
 
 .link:hover {
@@ -142,4 +140,8 @@ Nav.Item {
   background-color: white;
   padding: 20px;
   margin: 20px;
+}
+
+.navlink {
+  text-align: center;
 }

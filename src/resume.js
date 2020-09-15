@@ -71,3 +71,11 @@
 //           <Nav.Link eventKey="link-2">Link</Nav.Link>
 //         </Nav.Item>
 //       </Nav>
+
+// <Router>
+//       <Switch>
+//         <Route exact path="/home" component={Body} />
+//         <Route path="/about" component={Info} />
+//         <Route path="/project" component={Project} />
+//       </Switch>
+//     </Router>
