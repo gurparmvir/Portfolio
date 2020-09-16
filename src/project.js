@@ -13,7 +13,7 @@ class Project extends Component {
             <img src={layout} alt="" className="w-100 mw7 w5-ns" />
           </div>
           <div className="db dtc-ns v-mid ph2 pr0-ns pl3-ns">
-            <p className="lh-copy">Simple Layout using flexbox.</p>
+            <p className="lh-copy">Layout using flexbox</p>
             <a className="live" href="https://gurparmvir.github.io/Layout/">
               <button>See Live</button>
             </a>
@@ -24,7 +24,7 @@ class Project extends Component {
             <img src={robot} alt="" className="w-100 mw7 w5-ns" />
           </div>
           <div className="db dtc-nb v-mid ph2 pr0-ns pl3-ns">
-            <p className="lh-copy">App using React</p>
+            <p className="lh-copy">Functional React app</p>
             <a href="https://gurparmvir.github.io/robofriends/">
               <button>See Live</button>
             </a>

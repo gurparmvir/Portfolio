@@ -31,8 +31,7 @@ li a:hover:not(.active) {
 }
 body {
   background-repeat: no-repeat;
-  background-position: center center;
-  height: auto; /* Used to enable scrolling */
+  background-position: center;
   background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
 }
 
