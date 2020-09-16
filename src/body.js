@@ -20,8 +20,8 @@ class Body extends Component {
         </p>
         <p className="aboutme">
           {" "}
-          Languages: HTML5, CSS3, JavaScript, Python, C++, Java, C, ReactJS,
-          NodeJS, AWS Lambda, AWS DynamoDB
+          SKILLS: HTML5, CSS3, JavaScript, Python, C++, Java, C, ReactJS,
+          NodeJS, SQL, PostgreSQL, AWS Lambda, AWS DynamoDB
         </p>
       </div>
     );
