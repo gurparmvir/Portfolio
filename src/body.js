@@ -14,7 +14,7 @@ class Body extends Component {
         <h1 className="me">About Me </h1>
         <p className="aboutme">
           I am a recent graduate from the Univeristy of Maryland, Baltimore
-          County passionate for front-end web developing with 1 year of
+          County passionate for front-end web developing with 3 years of
           experience using HTML5, CSS and JavaScript in order to build all
           aspects of the user experience and user interface.
         </p>
